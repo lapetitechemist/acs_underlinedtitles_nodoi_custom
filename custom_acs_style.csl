@@ -7,7 +7,7 @@
     <id>http://www.zotero.org/styles/acs-chemical-biology</id>
     <link href="http://www.zotero.org/styles/acs-chemical-biology" rel="self"/>
     <link href="http://www.zotero.org/styles/american-chemical-society" rel="independent-parent"/>
-    <link href="http://pubs.acs.org/paragonplus/submission/acbcct/acbcct_authguide.pdf" rel="documentation"/>
+    <link href="https://pubs.acs.org/paragonplus/submission/acbcct/acbcct_authguide.pdf" rel="documentation"/>
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <issn>1554-8929</issn>
@@ -15,8 +15,8 @@
     <updated>2018-02-05T04:57:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-</style>
-<!-- Citation Style -->
+
+  <!-- Citation Style -->
   <citation>
     <layout>
       <group delimiter=", ">
@@ -46,4 +46,5 @@
   <macro name="DOI">
     <display/>
   </macro>
-</style>
+
+</style> <!-- Ensure this is the last closing tag -->
