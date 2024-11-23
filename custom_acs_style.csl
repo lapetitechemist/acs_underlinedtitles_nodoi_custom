@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
   <!-- American Chemical Society (ACS), generated from "acs" metadata at https://github.com/citation-style-language/journals -->
   <info>
@@ -16,3 +17,33 @@
   </info>
 </style>
 <!-- Citation Style -->
+  <citation>
+    <layout>
+      <group delimiter=", ">
+        <text variable="author" font-style="italic"/>
+        <text variable="title" text-case="title" text-decoration="underline"/> <!-- Underline title -->
+        <text variable="container-title" font-style="italic"/>
+        <text variable="volume"/>
+        <text variable="page"/>
+      </group>
+    </layout>
+  </citation>
+
+  <!-- Bibliography Style -->
+  <bibliography>
+    <layout>
+      <group delimiter=", ">
+        <text variable="author" font-style="italic"/>
+        <text variable="title" text-case="title" text-decoration="underline"/> <!-- Underline title -->
+        <text variable="container-title" font-style="italic"/>
+        <text variable="volume"/>
+        <text variable="page"/>
+      </group>
+    </layout>
+  </bibliography>
+
+  <!-- Optional: Remove DOI from citation and bibliography -->
+  <macro name="DOI">
+    <display/>
+  </macro>
+</style>
